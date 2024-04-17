@@ -1,0 +1,39 @@
+_colorLibrary {
+    background-color: rgb(29, 21, 32); /* MAIN BGC */
+    background-color: rgba(106, 81, 117, 0.719); /* UI BGC */
+    border: 5px solid rgb(211, 134, 45); /* BORDERS */
+    background-color: rgb(43, 29, 48); /* ACCENT BGC */
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 21, 32);
+}
+
+#gameBoard{
+    border: 5px solid rgb(211, 134, 45);
+}
+
+.bottomContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#scoreText, #highscoreText{
+    display: flex;
+    justify-content: center;
+    color: rgb(211, 134, 45);
+    font-size: 40px;
+}
+
+#resetButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 29, 48);
+    color: rgb(211, 134, 45);
+    width: 70px;
+    height: 30px;
+}
